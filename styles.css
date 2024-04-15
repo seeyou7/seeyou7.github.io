@@ -1,0 +1,336 @@
+/* DEPART sans marge*/
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+}
+
+/* Global */
+body {
+    background-image: url("./images/background.png");
+    background-repeat: no-repeat;
+    background-position: start top;
+    background-size: cover;
+    max-height: 150vh;
+}  
+
+/* Header */
+header {
+    text-transform: uppercase;
+}
+
+header div {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+header div a {
+    color: white;
+    margin: 0 30px;
+}
+
+/* General Styles for the Section */
+section {
+    text-align: center;
+}
+
+/* Styles for the Intro Section */
+.intro-section {
+    margin: 60px 0;
+   
+}
+
+.intro-section h1 {
+    font-size: 120px;
+    color: white;
+}
+
+.sub-title {
+    text-transform: uppercase;
+    color: white;
+    word-spacing: 60px;
+}
+
+button {
+    background-color: #c271ff;
+    color: white;
+    padding: 10px 20px;
+    margin: 20px;
+    border: 0;
+    border-radius: 20px;
+    text-transform: uppercase;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* Styles for the Learning Section */
+/* Specific Styles for the 'Learning Section' */
+.learning-section {
+    padding-top: 70px;
+    font-size: 32px;
+    color: #fff;
+}
+
+/* Target the 'span' h2' */
+.learning-section span {
+    color: #c271ff;  
+}
+
+
+/* Flex container for profiles */
+.profile-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+
+/* Style for individual profile blocks */
+.profile {
+    margin: 20px;
+    display: block;
+}
+
+.profile h3 {
+    font-weight: bold;
+    color: white;
+    margin: 0.45rem 0;
+}
+
+.profile p {
+    color: rgb(215, 215, 215);
+    font-style: italic;
+}
+
+
+
+/* Second section */
+/* Styles for the Testimonial Section */
+.testimonial-section {
+    background-color: #c271ff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 80px 0;
+}
+
+.testimonial-container {
+    color: white;
+}
+
+.testimonial-image {
+    width: 160px;
+    /* float: left; */
+    margin-right: 30px;
+}
+
+.testimonial-content blockquote {
+    margin-top: 10px;
+}
+
+.author {
+    font-weight: bold;
+    font-size: large;
+    margin: 20px 0 10px 0;
+}
+
+
+/* Styles for the Tutorial Section */
+.tutorial-section {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.section-title {
+    font-size: 32px;
+    font-weight: 300;
+    margin: 60px 0;
+}
+
+.section-title .highlight {
+    font-weight: bold;
+    color: #c271ff;
+}
+
+.video-collection {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+}
+
+.video-item {
+    max-width: 255px;
+}
+
+.video-title {
+    font-size: 16px;
+    margin: 15px 0;
+}
+
+.video-description {
+    color: #07162980;  /* Semi-transparent black */
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.video-author {
+    display: flex;
+    align-items: center;
+}
+
+.video-author .author-image {
+    width: 30px;
+}
+
+.video-author .author-name {
+    font-size: 14px;
+    margin-left: 10px;
+    color: #c271ff;
+}
+
+.video-rating {
+    display: flex;
+    margin: 15px 0;
+    justify-content: space-between;
+}
+
+.video-rating .stars img {
+    width: 15px;
+    height: 15px;
+    margin-right: 8px;
+}
+
+.video-rating .duration {
+    color: #c271ff;
+}
+
+
+/* Styles for the Membership Section */
+.membership-section {
+    text-align: center;
+    background-color: #071629;
+    color: white;
+    padding-bottom: 15px;
+}
+
+.membership-section .section-title {
+    padding: 50px 0;
+    font-weight: 300;
+}
+
+.membership-section .section-title .highlight {
+    font-weight: bold;
+    color: #c271ff;
+}
+
+.membership-section .membership-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.membership-section .membership-item {
+    display: block;
+    max-width: 257px;
+}
+
+.membership-section .membership-item .membership-image {
+    text-align: center;
+    margin: 0 auto; /* Centers the image in the membership item */
+}
+
+.membership-section .membership-item .membership-title {
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+.membership-section .membership-item .membership-description {
+    font-size: 14px;
+    font-weight: 300;
+    color: rgb(221, 221, 221);
+}
+
+.membership-section .register-button {
+    margin: 60px auto 50px; /* Centers top and bottom margin */
+    display: block; /*  button is a block-level element  */
+
+}
+
+/* Styles for the FAQ Section sec 5*/
+.faq-section {
+    margin: 0 0 60px 0;
+    text-align: center;
+}
+
+.faq-title {
+    font-size: 60px;
+    font-weight: 300;
+    margin: 60px 0;
+}
+
+.faq-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.faq-row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.faq-item {
+    text-align: left;
+    max-width: 350px;
+    margin-bottom: 60px;
+}
+
+.faq-item h2 {
+    margin: 20px 0 30px 0;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.faq-item p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #071629;
+    line-height: 1.5;
+}
+
+
+/* Footer */
+/* Styles for the site footer */
+.site-footer {
+    background-color: #071629;  
+    color: white;               
+    text-align: center;        
+}
+
+/* Styles for the footer content that includes logo and social media links */
+.footer-row {
+    display: flex;
+    justify-content: space-around; 
+    padding: 90px 0;               
+    text-align: center;            
+}
+
+/* Specific styles for the social media links section */
+.social-media-links {
+    display: flex;  /* Display links in a row */
+}
+
+/* Styling individual social media links */
+.social-media-links a {
+    margin: 0 10px;  /* Space between links */
+}
+
+/* Styles for the copyright text at the bottom */
+.footer-content p {
+    text-align: center;           
+    color: white;                 
+    font-size: 12px;              
+    font-weight: 400;             
+    padding-bottom: 40px;         
+}
+
